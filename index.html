@@ -7,64 +7,64 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
+    <header class="header">
+        <div class="header__logo">
             <h1>Agência Criativa Web</h1>
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre-nos">Sobre Nós</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contato</a></li>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li><a class="nav__link" href="#home">Home</a></li>
+                <li><a class="nav__link" href="#sobre-nos">Sobre Nós</a></li>
+                <li><a class="nav__link" href="#servicos">Serviços</a></li>
+                <li><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
+                <li><a class="nav__link" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Bem-vindo à Agência Criativa Web</h2>
-        <p>Transformamos suas ideias em realidade com design inovador e soluções digitais.</p>
+    <section class="section home" id="home">
+        <h2 class="home__title">Bem-vindo à Agência Criativa Web</h2>
+        <p class="home__subtitle">Transformamos suas ideias em realidade com design inovador e soluções digitais.</p>
     </section>
 
-    <section id="sobre-nos">
-        <h2>Sobre Nós</h2>
-        <p>Na Agência Criativa Web, acreditamos na criatividade e na inovação. Nossos valores são a qualidade, a transparência e a satisfação do cliente.</p>
+    <section class="section sobre-nos" id="sobre-nos">
+        <h2 class="sobre-nos__title">Sobre Nós</h2>
+        <p class="sobre-nos__text">Na Agência Criativa Web, acreditamos na criatividade e na inovação. Nossos valores são a qualidade, a transparência e a satisfação do cliente.</p>
     </section>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <div class="servicos-grid">
-            <div class="servico">Design Gráfico</div>
-            <div class="servico">Desenvolvimento Web</div>
-            <div class="servico">Branding</div>
-            <div class="servico">Marketing Digital</div>
+    <section class="section servicos" id="servicos">
+        <h2 class="servicos__title">Serviços</h2>
+        <div class="servicos__grid">
+            <div class="servicos__item">Design Gráfico</div>
+            <div class="servicos__item">Desenvolvimento Web</div>
+            <div class="servicos__item">Branding</div>
+            <div class="servicos__item">Marketing Digital</div>
         </div>
     </section>
 
-    <section id="depoimentos">
-        <h2>Depoimentos</h2>
-        <blockquote>
+    <section class="section depoimentos" id="depoimentos">
+        <h2 class="depoimentos__title">Depoimentos</h2>
+        <blockquote class="depoimentos__item">
             <p>"A Agência Criativa Web superou nossas expectativas!" - Cliente Satisfeito</p>
         </blockquote>
-        <blockquote>
+        <blockquote class="depoimentos__item">
             <p>"Excelente trabalho e atendimento!" - Outro Cliente Satisfeito</p>
         </blockquote>
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>Email: contato@agenciacriativaweb.com</p>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
+    <section class="section contato" id="contato">
+        <h2 class="contato__title">Contato</h2>
+        <p class="contato__info">Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+        <p class="contato__info">Telefone: (11) 1234-5678</p>
+        <p class="contato__info">Email: contato@agenciacriativaweb.com</p>
+        <form class="form">
+            <label class="form__label" for="nome">Nome:</label>
+            <input class="form__input" type="text" id="nome" name="nome" required>
+            <label class="form__label" for="email">E-mail:</label>
+            <input class="form__input" type="email" id="email" name="email" required>
+            <label class="form__label" for="mensagem">Mensagem:</label>
+            <textarea class="form__textarea" id="mensagem" name="mensagem" required></textarea>
+            <button class="form__button" type="submit">Enviar</button>
         </form>
     </section>
 
