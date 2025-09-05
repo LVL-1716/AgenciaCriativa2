@@ -134,3 +134,76 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/* ====== Navegação ====== */
+.nav__menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Home ====== */
+.home__title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.home__subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* ====== Sobre Nós ====== */
+.sobre-nos__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.sobre-nos__text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* ====== Serviços ====== */
+.servicos__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.servicos__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* ====== Depoimentos ====== */
+.depoimentos__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.depoimentos__item {
+    background: #fff;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 500px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+    font-style: italic;
+}
+
+/* ====== Contato ====== */
+.contato__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contato__info {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* ====== Formulário ====== */
+.form__label {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
