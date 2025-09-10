@@ -1,0 +1,40 @@
+.header {
+  background-color: $cor-primaria;
+  color: $cor-secundaria;
+  padding: 1rem;
+
+  &__logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.nav {
+  @include flex-center();
+  justify-content: space-around;
+  margin-top: 1rem;
+
+  &__menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    color: $cor-secundaria;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #555;
+    }
+  }
+}
+
+.section {
+  padding: $espacamento;
+  text-align: center;
+}
