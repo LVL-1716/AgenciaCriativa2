@@ -1,3 +1,6 @@
+@use 'variaveis' as *;
+@use 'mixins' as *;
+
 .home {
   background-color: $cor-fundo;
   color: $cor-texto;
